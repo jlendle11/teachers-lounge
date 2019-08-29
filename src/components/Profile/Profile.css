@@ -1,16 +1,21 @@
 .profile {
     display: flex;
+    width: 100vw;
+    height: 100vh;
     justify-content: flex-start;
     flex-direction: column;
     font-family: Avenir;
+    overflow: auto;
 }
+
 .name-container {
     height: 200px;
     width: 500px;
     background-color: rgb(238, 224, 224);
     margin: 10px;
-    
+
 }
+
 .name {
     display: flex;
     justify-content: center;
@@ -26,9 +31,10 @@
     display: flex;
     align-items: flex-start;
     font-size: 40px;
-    font-family: Avenir-Medium; 
-     
+    font-family: Avenir-Medium;
+
 }
+
 .passion-button {
     width: 113px;
     height: 40px;
@@ -40,53 +46,60 @@
     height: 30px;
     width: 95px;
     border-radius: 7px;
-  border: solid 1px #000000;
-  background-color: #2165ae;
-  margin-left: 30px;
-  margin-top: -60px;
-  color: white;
+    border: solid 1px #000000;
+    background-color: #2165ae;
+    margin-left: 30px;
+    margin-top: -60px;
+    color: white;
 
 }
+
 .bio-container {
     width: 500px;
     height: 274px;
     background-color: rgb(238, 224, 224);
     margin-top: 40px;
-    
+
 }
-.bio-title{
+
+.bio-title {
     background-color: #d6e3f0;
     margin: auto 0;
 }
+
 .bioText {
     font-size: 18px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  margin: auto 0;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    margin: auto 0;
 
 }
+
 .experience-title {
+    position: absolute;
     width: 500px;
-  height: 40px;
-  font-family: Avenir;
-  font-size: 24px;
-  background-color: #d6e3f0;
+    height: 40px;
+    font-family: Avenir;
+    font-size: 24px;
+    background-color: #d6e3f0;
 
 }
 
 .experienceText {
     width: 498px;
-  height: 100px;
-  font-family: Avenir;
-  font-size: 12px;
+    margin-top: 40px;
+    height: 100%;
+    font-family: Avenir;
+    font-size: 12px;
 }
 
 .experience-container {
     background-color: rgb(238, 224, 224);
     width: 500px;
-    height: 274px; 
+    height: 100%;
+    overflow: auto;
 }
 
 
@@ -95,13 +108,15 @@
     display: flex;
     flex-direction: row;
 }
+
 .img-container {
     height: 185px;
     width: 185px;
     margin: auto 0;
 }
+
 img {
-   
+
     display: flex;
     height: 150px;
     width: 150px;
@@ -109,8 +124,9 @@ img {
     margin-top: -30px;
 
 }
+
 .teacher-info {
-    
+
     margin: -150px 10px 50px 200px;
     flex-direction: column;
     display: flex;
@@ -119,6 +135,7 @@ img {
     font-family: BanglaSangamMN;
     font-size: 12px;
 }
+
 h2 {
     margin: auto 0;
 }
