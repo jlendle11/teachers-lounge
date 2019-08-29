@@ -42,8 +42,15 @@ function Resources() {
                     </div>
                     <div className="recommendations"><div className="r">Recommendations</div></div>
                 </div>
-                <img className="left-arrow" src={leftArrow} alt="left-arrow" />
-                <img className="right-arrow" src={rightArrow} alt="left-arrow" />
+                <div>
+
+                </div>
+
+                <div className="resources-arrow-container">
+                    <img className="left-arrow" src={leftArrow} alt="left-arrow" />
+                    <img className="right-arrow" src={rightArrow} alt="left-arrow" />
+                </div>
+
                 <div className="resources-component">
                     {resourcesArray.map((resource, index) => {
                         return (
