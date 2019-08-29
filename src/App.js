@@ -1,23 +1,17 @@
 // Packages and Libraries
 import React from 'react'
-import { Route, Link } from 'react-router-dom'
+import { Route } from 'react-router-dom'
 // Components
 import Homepage from './components/Homepage'
 import Profile from './components/Profile'
+import Nav from './components/Nav'
 // Styling 
 import './App.css'
 
 function App() {
   return (
     <div className="App">
-      <nav className='nav-bar'>
-        <div>
-          <Link to="/" >Home</Link>
-        </div>
-        <div>
-          <Link to="/profile">Profile</Link>
-        </div>
-      </nav>
+      <Nav/>
       <main>
         <Route 
             exact path="/" 
@@ -28,6 +22,7 @@ function App() {
             component={Profile}
         />
       </main>
+      {/* <Footer/> */}
     </div>
   )
 }
