@@ -1,17 +1,56 @@
 import React from 'react'
+import './Resources.css'
+import books from '../../pics/books.png'
+
+const resourcesArray = [
+    {
+        title: "Metric Slides",
+        type: "Slides",
+        subject: "Chemistry"
+    },
+    {
+        title: "Cool Animals",
+        type: "Activity",
+        subject: "Science"
+    },
+    {
+        title: "Title",
+        type: "Type",
+        subject: "Subject"
+    },
+    {
+        title: "Title",
+        type: "Type",
+        subject: "Subject"
+    },
+    {
+        title: "Title",
+        type: "Type",
+        subject: "Subject"
+    }
+]
 
 function Resources() {
     return (
-        <div>
-            <h1>Resources</h1>
-            <h2>Recommendations</h2>
-            <div>
-                <h2>Metric Slides</h2>
-                <img/>
-                <h3></h3>
-            </div>
+        resourcesArray.map((resource, index) => {
+            return (
+                <div key={index} className="resources-content-container">
+                    <div className="resources-boxes">
 
-        </div>
+                        <div className="resources-title-box">
+                            <div className="resources-title">{resource.title}</div>
+                        </div>
+
+                        <div className="resources-img-box">
+                            <img className="resources-img" src={books} alt="books" />
+                        </div>
+                        
+                        <div className="resources-type">{resource.type}</div>
+                        <div className="resources-subject">{resource.subject}</div>
+                    </div>
+                </div>
+            )
+        })
     )
 }
 
