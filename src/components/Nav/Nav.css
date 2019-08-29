@@ -1,0 +1,143 @@
+.navv-bar {
+    display: flex;
+    /* flex-direction: row;
+    align-content: center; */
+    width: -webkit-fill-available;
+    height: 64px;
+    background-color: #2165ae;
+}
+
+.logo {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    margin: 0px, 0px, 0px, 0px;
+    margin: 0px, 0px, 0px, 0px;
+    width: 60px;
+    height: 46px;
+    background-color: #2165ae;
+}
+
+.navz {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.search_button_bar{
+    height: 24px;
+    display: flex;
+    flex-direction: row;   
+}
+
+/* 
+.search_bar {
+    
+    flex-direction: row;
+    height: 24px;
+}
+*/
+
+.search_button {
+    display: flex;
+    flex-direction: row;
+    width: 25px;
+    height: 24px;
+    background-color: #f3f3f3
+}
+
+.nav_links{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.network {
+    width: 70px;
+    height: 25px;
+    font-family: Avenir-Roman;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.02px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.resources {
+    width: 82px;
+    height: 25px;
+    font-family: Avenir-Roman;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.02px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.discuss {
+    width: 60px;
+    height: 25px;
+    font-family: Avenir-Roman;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.02px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.settings {
+    width: 66px;
+    height: 25px;
+    font-family: Avenir-Roman;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.02px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.help {
+    width: 39px;
+    height: 25px;
+    font-family: Avenir-Roman;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.02px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.chat_icon {
+    display: flex;
+    flex-direction: row;
+    width: 47px;
+    height: 40px;
+}
+
+.profile_pic {
+    display: flex;
+    flex-direction: row;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: solid 2px #ffffff;
+}
+.profile_pic:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
+    
+}
