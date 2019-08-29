@@ -1,0 +1,97 @@
+
+.discuss-container {
+    width: 1184px;
+    height: 628px;
+    display: flex;
+    flex-direction: column;
+}
+
+.discuss-header {
+    display: flex;
+    height: 48px;
+    background-color: #d6e3f0;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.discuss-title {
+    font-size: 24px;
+    margin-left: 74px;
+    font-family: Avenir-Roman;
+}
+
+.discuss-box {
+    display: flex;
+    justify-content: center;
+    height: 133px;
+    flex-direction: column;
+}
+
+.box-one {
+    background-color: #f2f2f2;
+}
+
+.box-two {
+    background-color: #e9e9e9;
+}
+
+.box-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 24px;
+    margin-left: 75px;
+    margin-right: 73px;
+    font-family: Avenir;
+}
+
+.box-top-left {
+    font-weight: 900;
+    margin: 0;
+    color: #080808;
+}
+
+.box-top-right {
+    margin: 0;
+}
+
+.box-bot-left {
+    margin: 0;
+    color: #080808;
+}
+
+.box-bot-right {
+    margin: 0;
+}
+
+.box-bot-all {
+ height: 34px;
+}
+
+.box-bot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 24px;
+    margin-left: 75px;
+    margin-right: 73px;
+}
+
+.discuss-foot-container {
+    display: flex;
+    height: 48px;
+    background-color: #d6e3f0;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.discuss-foot {
+    font-size: 21px;
+    margin-left: 74px;
+    font-family: Avenir-Roman;
+}
+
+.discuss-span {
+    font-weight: 300;
+    font-style: oblique;
+}
