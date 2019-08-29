@@ -1,7 +1,7 @@
 
 .discuss-container {
-    width: 1184px;
-    height: 628px;
+    width: 80vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -27,6 +27,12 @@
     flex-direction: column;
 }
 
+.discuss-box:hover {
+    background-size: 200%;
+    z-index: 2;
+    background-color: #D0D3D8;
+}
+
 .box-one {
     background-color: #f2f2f2;
 }
@@ -36,6 +42,16 @@
 }
 
 .box-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 24px;
+    margin-left: 75px;
+    margin-right: 73px;
+    font-family: Avenir;
+}
+
+.box-bot {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -64,18 +80,38 @@
     margin: 0;
 }
 
-.box-bot-all {
+.box-all {
  height: 34px;
+ margin-top: 5px;
+ margin-bottom: 5px;
 }
 
-.box-bot {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 24px;
-    margin-left: 75px;
-    margin-right: 73px;
+.box-top-left:hover {
+    font-size: 26px;
 }
+
+.box-bot-left:hover {
+    font-size: 26px;
+}
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) {
+        .box-all {
+            font-size: 3.5vw;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .box-top {
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        .box-bot {
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    }
+
 
 .discuss-foot-container {
     display: flex;
@@ -85,10 +121,18 @@
     flex-direction: column;
 }
 
+
+
 .discuss-foot {
+    text-decoration: none;
     font-size: 21px;
     margin-left: 74px;
     font-family: Avenir-Roman;
+    color: black;
+}
+
+.discuss-foot:hover {
+    font-size: 24px;
 }
 
 .discuss-span {
