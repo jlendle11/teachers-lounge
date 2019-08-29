@@ -25,12 +25,17 @@
     justify-content: center;
     height: 133px;
     flex-direction: column;
+    transition: 1s ease;
 }
 
 .discuss-box:hover {
-    background-size: 200%;
+    background-size: 170%;
     z-index: 2;
     background-color: #D0D3D8;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
 }
 
 .box-one {
@@ -65,6 +70,7 @@
     font-weight: 900;
     margin: 0;
     color: #080808;
+    text-decoration: none;
 }
 
 .box-top-right {
@@ -74,6 +80,7 @@
 .box-bot-left {
     margin: 0;
     color: #080808;
+    text-decoration: none;
 }
 
 .box-bot-right {
@@ -87,12 +94,12 @@
 }
 
 .box-top-left:hover {
-    font-size: 26px;
+    border: .5px dotted RGBA(0, 0, 0, .3);
 }
 
 .box-bot-left:hover {
-    font-size: 26px;
-}
+    border: .5px dotted RGBA(0, 0, 0, .3);
+} 
 
 @media only screen 
     and (device-width : 375px) 
