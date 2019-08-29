@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Linda from '../../pics/linda.jpeg'
+import linda from '../../pics/linda.jpeg'
 import Search from '../../pics/search_button.png'
 import Chat from '../../pics/chat.png'
 import Logo from '../../pics/logo.png'
@@ -55,7 +55,7 @@ function Nav() {
 
       <div>
         <Link to="/profile">
-          <img className='profile_pic' src={Linda} alt='profile pic'></img>
+          <img className='profile_pic' src={linda} alt='profile pic'></img>
         </Link>
       </div>
 
