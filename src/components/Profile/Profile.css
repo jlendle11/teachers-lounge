@@ -1,3 +1,55 @@
+.test-profile {
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.row-1 {
+    display: flex;
+    flex-direction: row;
+}
+.row-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.box-1 {
+    width: 40vw;
+    height: 40vh;
+    background-color: gray;
+}
+
+.box-2 {
+    width: 40vw;
+    height: 40vh;
+    background-color: green;
+}
+
+.box-3 {
+    width: 40vw;
+    height: 40vh;
+    background-color: red;
+}
+
+.box-4 {
+    width: 40vw;
+    height: 40vh;
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .profile {
     display: flex;
     width: 100vw;
