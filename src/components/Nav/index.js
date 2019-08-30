@@ -4,7 +4,6 @@ import linda from '../../pics/linda.jpeg'
 import Search from '../../pics/search_button_magnify_glass.png'
 import Chat from '../../pics/chat_icon_comic_bubble.png'
 import Logo from '../../pics/teachers_lounge_logo.png'
-
 import './nav.css'
 
 function Nav() {
