@@ -1,43 +1,33 @@
-.navv-bar {
+.main-nav-bar {
     display: flex;
     /* flex-direction: row;
     align-content: center; */
-    width: -webkit-fill-available;
-    height: 64px;
+    width: 100%;
+    height: 60px;
     background-color: #2165ae;
 }
 
-.logo {
+img.tl-logo {
     display: flex;
     align-content: center;
     flex-direction: row;
-    margin: 0px, 0px, 0px, 0px;
-    margin: 0px, 0px, 0px, 0px;
+    margin-top: 8%;
     width: 60px;
     height: 46px;
     background-color: #2165ae;
 }
 
-.navz {
+/* .navz {
     margin-left: 10px;
     margin-right: 10px;
-}
+} */
 
-.search_button_bar{
-    height: 24px;
-    display: flex;
-    flex-direction: row;   
-}
-
-/* 
 .search_bar {
-    
     flex-direction: row;
     height: 24px;
 }
-*/
 
-.search_button {
+div.search-button {
     display: flex;
     flex-direction: row;
     width: 25px;
@@ -45,13 +35,15 @@
     background-color: #f3f3f3
 }
 
-.nav_links{
+div.nav-links {
     display: flex;
     justify-content: space-evenly;
+    color: #ffffff;
+    width: 100%;
 
 }
 
-.network {
+div.network {
     width: 70px;
     height: 25px;
     font-family: Avenir-Roman;
@@ -62,10 +54,9 @@
     line-height: normal;
     letter-spacing: -0.02px;
     text-align: center;
-    color: #ffffff;
 }
 
-.resources {
+div.resources {
     width: 82px;
     height: 25px;
     font-family: Avenir-Roman;
@@ -76,10 +67,9 @@
     line-height: normal;
     letter-spacing: -0.02px;
     text-align: center;
-    color: #ffffff;
 }
 
-.discuss {
+div.discuss {
     width: 60px;
     height: 25px;
     font-family: Avenir-Roman;
@@ -90,10 +80,9 @@
     line-height: normal;
     letter-spacing: -0.02px;
     text-align: center;
-    color: #ffffff;
 }
 
-.settings {
+div.settings {
     width: 66px;
     height: 25px;
     font-family: Avenir-Roman;
@@ -104,10 +93,10 @@
     line-height: normal;
     letter-spacing: -0.02px;
     text-align: center;
-    color: #ffffff;
+
 }
 
-.help {
+div.help {
     width: 39px;
     height: 25px;
     font-family: Avenir-Roman;
@@ -118,26 +107,26 @@
     line-height: normal;
     letter-spacing: -0.02px;
     text-align: center;
-    color: #ffffff;
 }
 
-.chat_icon {
+div.chat-icon-bubble {
     display: flex;
     flex-direction: row;
     width: 47px;
     height: 40px;
 }
 
-.profile_pic {
+div.nav-profile-pic {
     display: flex;
     flex-direction: row;
     width: 40px;
     height: 40px;
-    border-radius: 50%;
+    border-radius: 60%;
     border: solid 2px #ffffff;
 }
-.profile_pic:hover {
+
+div.profile-pic:hover {
     transition: all .2s ease-in-out;
     transform: scale(1.1);
-    
+
 }
