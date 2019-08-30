@@ -41,8 +41,6 @@
     background-color: blue;
 }
 
-
-
 .profile {
     display: flex;
     width: 100vw;
@@ -72,6 +70,18 @@
     background-color: #d6e3f0;
 }
 
+.passions {
+    display: flex;
+    align-items: flex-start;
+    font-size: 40px;
+    font-family: Avenir-Medium;
+
+}
+
+.passion-button {
+    width: 113px;
+    height: 40px;
+}
 
 .edit {
     height: 30px;
@@ -84,16 +94,27 @@
     color: white;
 
 }
-    .bio {
-        font-family: 'Nunito', sans-serif;
-        font-size: 24px;
-        margin-left: 27px;
-    }
+
+.bio {
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    margin-left: 27px;
+  
+}
+
 .bio-title {
     display: flex;
     align-items: center;
     background-color: #d6e3f0;
     height: 48px;
+}
+
+.bio-container {
+    width: 500px;
+    height: 274px;
+    background-color: rgb(238, 224, 224);
+    margin-top: 40px;
+
 }
 
 .bioText {
@@ -144,7 +165,6 @@ button {
     color: black;
     border: 2px solid black;
     font-family: 'Nunito', sans-serif;
-  
 }
 
 .experience-title {
@@ -185,9 +205,7 @@ button {
     margin: auto 0;
 }
 
-
 .teacher-info {
-
     margin: -150px 10px 50px 200px;
     flex-direction: column;
     display: flex;
@@ -195,8 +213,4 @@ button {
     height: 152px;
     font-family: BanglaSangamMN;
     font-size: 12px;
-}
-
-h2 {
-    margin: auto 0;
 }
