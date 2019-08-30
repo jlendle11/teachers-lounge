@@ -1,61 +1,58 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import linda from '../../pics/linda.jpeg'
-import Search from '../../pics/search_button.png'
-import Chat from '../../pics/chat.png'
-import Logo from '../../pics/logo.png'
-import './Nav.css'
+import Search from '../../pics/search_button_magnify_glass.png'
+import Chat from '../../pics/chat_icon_comic_bubble.png'
+import Logo from '../../pics/teachers_lounge_logo.png'
+
+import './nav.css'
 
 function Nav() {
   return (
-    <nav className='navv-bar'>
+    <nav className='main-nav-bar'>
       <div>
         <Link to="/">
-          <img className='logo' src={Logo} alt='logo_pic' onClick={Link}></img>
+          <img className='tl-logo' src={Logo} alt='logo-pic'></img>
         </Link>
       </div>
 
-      <div className='search_button_bar'>
-        <input className='search_bar' type="text" placeholder="Search.." />
-        <span><img className='search_button' src={Search} alt='search'></img></span>
+      <div className='search-button-bar'>
+        <input type="text" placeholder="Search.." />
+        <img className='search-button' src={Search} alt='search'></img>
       </div>
 
-      <div className="nav_links">
-
-        <div className='network navz'>
+      <div className="nav-links">
+        <div className='network-navz'>
           Network
       </div>
 
 
-        <div className='resources navz'>
+        <div className='resources-navz'>
           Resources
       </div>
 
 
-        <div className='discuss navz'>
+        <div className='discuss-navz'>
           Discuss
       </div>
 
-
-        <div className='settings navz'>
+        <div className='settings-navz'>
           Setting
       </div>
 
 
-        <div className='help navz'>
+        <div className='help-navz'>
           Help
       </div>
-
-
       </div>
 
-      <div>
-        <img className='chat_icon' src={Chat} alt='chat_bubble'></img>
+      <div className='parent-chat-icon'>
+        <img className='chat-icon-bubble' src={Chat} alt='chat-bubble'></img>
       </div>
 
       <div>
         <Link to="/profile">
-          <img className='profile_pic' src={linda} alt='profile pic'></img>
+          <img className='nav-profile-pic' src={linda} alt='profile-pic'></img>
         </Link>
       </div>
 
