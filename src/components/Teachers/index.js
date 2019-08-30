@@ -47,6 +47,41 @@ const teachersArray = [
         grade: "Grade 7",
         location: "Brooklyn, NY",
         img: t1
+    },
+    {
+        name: "Sally Jones",
+        subject: "Social Studies",
+        grade: "Grade 5",
+        location: "New York, NY",
+        img: t1
+    },
+    {
+        name: "Jeff Smith",
+        subject: "Math",
+        grade: "Grade 8",
+        location: "White Plains, NY",
+        img: t2
+    },
+    {
+        name: "Billie Jean",
+        subject: "Science",
+        grade: "Grade 4",
+        location: "Tarrytown, NY",
+        img: t3
+    },
+    {
+        name: "Charlie Michaels",
+        subject: "Spanish",
+        grade: "Grade 11",
+        location: "Bronx, NY",
+        img: t2
+    },
+    {
+        name: "Debbie Harold",
+        subject: "English",
+        grade: "Grade 7",
+        location: "Brooklyn, NY",
+        img: t1
     }
 ]
 
