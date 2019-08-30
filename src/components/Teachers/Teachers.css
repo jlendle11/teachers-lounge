@@ -51,14 +51,14 @@
     margin: 0;
 }
 
-.arrow-left {
+.teacher-arrow-left {
     margin: 150px 15px 0 32px;
     width: 10px;
     height: 32px;
     align-items: flex-end;
 }
 
-.arrow-right {
+.teacher-arrow-right {
     margin: 150px 32px 0 24px;
     width: 10px;
     height: 32px;
@@ -73,7 +73,7 @@
     margin-bottom: 4px;
 }
 
-h3 {
+.teacher-h3 {
     margin: 7px 0;
     font-family: Avenir-Roman;
     font-size: 24px;
@@ -85,7 +85,7 @@ h3 {
     color: #000000;
 }
 
-h4 {
+.teacher-h4 {
     margin: 26px 0 16px 0;
     font-family: Avenir-Roman;
     font-size: 21px;
@@ -97,7 +97,7 @@ h4 {
     color: #424242;
 }
 
-h5 {
+.teacher-h5 {
     margin: 8px 0 0 0;
     font-family: Avenir;
     font-size: 16px;
@@ -110,7 +110,7 @@ h5 {
     color: #000000;
 }
 
-p {
+.teacher-p {
     margin: 0px;
     font-family: Avenir;
     font-size: 14px;
@@ -123,7 +123,7 @@ p {
     color: #3c474d;
 }
 
-button {
+.teacher-button {
     width: 80px;
     height: 24px;
     border-radius: 6px;

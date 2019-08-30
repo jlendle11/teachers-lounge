@@ -116,7 +116,7 @@ div.chat-icon-bubble {
     height: 40px;
 }
 
-div.nav-profile-pic {
+.nav-profile-pic {
     display: flex;
     flex-direction: row;
     width: 40px;
