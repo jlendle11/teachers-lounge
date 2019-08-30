@@ -1,6 +1,6 @@
 import React from 'react'
 import './Profile.css'
-import linda from '../../pics/linda.jpeg'
+// import linda from '../../pics/linda.jpeg'
 
 function Profile() {
     return (

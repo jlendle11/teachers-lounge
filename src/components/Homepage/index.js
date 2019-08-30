@@ -15,8 +15,8 @@ function Homepage() {
     return (
         <div>
             <h1>Homepage</h1>
-            <Teachers />
             <Resources />
+            <Teachers />
             <Discussions />
         </div>
     )

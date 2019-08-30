@@ -99,7 +99,7 @@
 }
 
 .resources-container {
-  margin: 3% 0 5% 0;
+  margin: 3% 0 3% 0;
   display: flex;
   flex-direction: column;
   width: 80vw;
@@ -117,7 +117,7 @@
   border: solid 1px #2165ae;
   background-color: #ffffff;
   position: absolute;
-  margin-top: 5vh;
+  margin-top: 3.5vh;
 }
 .resources-component {
   display: flex;
@@ -149,5 +149,8 @@
   width: 19px;
   height: auto;
   margin: 18vh 1vw 0 77%;
+}
+.resources-content-container{
+  margin: 0 32px;
 }
 

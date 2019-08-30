@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import linda from '../../pics/linda.jpeg'
+import linda from '../../pics/Linda.jpeg'
 import Search from '../../pics/search_button.png'
 import Chat from '../../pics/chat.png'
 import Logo from '../../pics/logo.png'
