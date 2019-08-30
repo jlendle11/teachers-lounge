@@ -25,6 +25,8 @@
 .box-2 {
     width: 40vw;
     height: 40vh;
+    background-color: #f2f2f2;
+    margin-left: 10px;
 }
 
 .box-3 {
@@ -104,10 +106,7 @@
     font-family: 'Nunito', sans-serif;
 
 }
-.box-2 {
-    background-color: #f2f2f2;
-    margin-left: 10px;
-}
+
 .passion-container {
     display: flex;
     flex-direction: row;
