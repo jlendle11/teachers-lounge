@@ -26,7 +26,7 @@
     width: 40vw;
     height: 40vh;
     background-color: #f2f2f2;
-    margin-left: 10px;
+    border: 1px solid black;
 }
 
 .box-3 {
@@ -78,9 +78,9 @@
 
 }
 
-.passion-button {
-    width: 113px;
-    height: 40px;
+.passion-container {
+    width: 40vw;
+    height: 10vh;
 }
 
 .edit {
@@ -96,33 +96,26 @@
 }
 
 .bio {
+    display: flex;
+    margin: 1vh;
     font-family: 'Nunito', sans-serif;
-    font-size: 24px;
-    margin-left: 27px;
+    font-size: 1.5vw;
+    margin-left: 1.5vw;
+    font-weight: 100;
+  
 }
 
 .bio-title {
     display: flex;
     align-items: center;
     background-color: #d6e3f0;
-    height: 48px;
-}
-
-.bio-container {
-    width: 500px;
-    height: 274px;
-    background-color: rgb(238, 224, 224);
-    margin-top: 40px;
-
+    height: 6.5vh;
 }
 
 .bioText {
-    font-size: 18px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    margin-left: 27px;
+    font-size: 2vh;
+    font-weight: 100;
+    margin-left: 1.5vw;
     font-family: 'Nunito', sans-serif;
 
 }
@@ -130,40 +123,64 @@
 .passion-container {
     display: flex;
     flex-direction: row;
+
 }
 
 .passions {
     display: flex;
     align-items: flex-start;
-    margin-left: 27px;
-    font-size: 24px;
+    margin-left: 1.5vw;
+    font-size: 1.5vw;
     font-family: 'Nunito', sans-serif;
-    font-weight: 700;
+    font-weight: 500;
 
+}
+
+.bio-buttonContainer {
+    display: flex;
+    flex-direction: column;
+    width: 32vw;
+    height: 12vh;
+   
+    
 }
 
 .bio-buttons1 {
     display: flex;
-    margin-left: 40px;
+    justify-content: flex-start;
+    justify-content: space-around;
+    margin-left: 8vh;
 }
+
 .bio-buttons2 {
     display: flex;
-    margin-top: 50px;
-    margin-left: -450px;
+    justify-content: flex-start;
+    justify-content: space-around;
 }
-button {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 10px;
-    width: 117px;
-    height: 24px;
-    background-color: #b3e3f1;
-    border-radius: 7px;
-    font-size: 14px;
-    color: black;
-    border: 2px solid black;
-    font-family: 'Nunito', sans-serif;
+
+.bio-button1 {
+    width: 7vw;
+   
+}
+
+.bio-button2 {
+    width: 7vw;
+}
+
+.bio-button3 {
+    width: 7vw;
+}
+
+.bio-button4 {
+    width: 7vw;
+}
+
+.bio-button5 {
+    width: 7vw;
+}
+
+.bio-button6 {
+    width: 7vw;
 }
 
 .experience-title {
