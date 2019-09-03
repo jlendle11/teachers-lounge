@@ -87,7 +87,7 @@
 }
 
 .resources-img {
-  width: 96px;
+  width: 13vh;
   height: auto;
   margin: 1vh 0;
   padding: 1px;
@@ -97,7 +97,7 @@
   display: flex;
   flex-direction: column;
   width: 156px;
-  height: 238px;
+  height: 31vh;
   border-radius: 10px;
   border: solid 1px #2165ae;
   background-color: #ffffff;
@@ -166,8 +166,8 @@
 
 .r-r,
 .r-v-r{
-  width: 357px;
-  height: 29px;
+  width: auto;
+  height: 2.6vh;
   font-family: Avenir-Roman;
   font-size: 160%;
   font-weight: normal;
@@ -186,7 +186,7 @@
 }
 .resources-container-profile{
   width: auto;
-  height: 707px;
+  height: 60vh;
   background-color: #f2f2f2;
   /* overflow: auto; */
 }
@@ -200,7 +200,7 @@
 
 .see-more{
   width: 73px;
-  height: 19px;
+  height: 1vh;
   font-family: BanglaSangamMN;
   font-size: 16px;
   font-weight: normal;
@@ -213,4 +213,28 @@
   text-decoration: underline;
   margin: 7% 4% 0 0;
 }
+.r-v-r-c,
+.r-r-c-c{
+  /* display: flex; */
+  /* flex-direction: row; */
+  height: 40%;
 
+
+}
+
+.resources-boxes-profile{
+  display: flex;
+  flex-direction: column;
+  width: 156px;
+  height: 31vh;
+  border-radius: 10px;
+  border: solid 1px #2165ae;
+  background-color: #ffffff;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+
+  position: relative;
+  margin: 9% 64px 0 6px;
+  z-index: 1;
+}
