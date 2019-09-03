@@ -1,6 +1,7 @@
 .teachers-container {
     width: 80vw;
     height: 400px;
+    margin-top: 3%;
     /* background-color: #f2f2f2; */
     display: flex;
     flex-direction: column;
