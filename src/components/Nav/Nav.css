@@ -143,3 +143,11 @@ div.profile-pic:hover {
     transform: scale(1.1);
 
 }
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) {
+        .main-nav-bar {
+          width: 100vw;
+        }
+    }

@@ -8,3 +8,11 @@
     bottom: 0;
     z-index: 4;
 }
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) {
+        .footer-container {
+         width: 100vw;
+        }
+    }
