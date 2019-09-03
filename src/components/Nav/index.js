@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import linda from '../../pics/linda.jpeg'
+import linda from '../../pics/linda-profile.jpeg'
 import Search from '../../pics/search_button_magnify_glass.png'
 import Chat from '../../pics/chat_icon_comic_bubble.png'
 import Logo from '../../pics/teachers_lounge_logo.png'
-import './nav.css'
+import './Nav.css'
 
 function Nav() {
   return (
@@ -16,7 +16,7 @@ function Nav() {
       </div>
 
       <div className='search-button-bar'>
-        <input type="text" placeholder="Search.." />
+        <input type="text" placeholder="Search.."  className="search-text"/>
         <img className='search-button' src={Search} alt='search'></img>
       </div>
 

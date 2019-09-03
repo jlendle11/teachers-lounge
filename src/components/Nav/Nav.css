@@ -5,6 +5,7 @@
     width: 100%;
     height: 60px;
     background-color: #2165ae;
+    align-items: center;
 }
 
 img.tl-logo {
@@ -27,12 +28,23 @@ img.tl-logo {
     height: 24px;
 }
 
-div.search-button {
+.search-button {
     display: flex;
     flex-direction: row;
     width: 25px;
     height: 24px;
     background-color: #f3f3f3
+}
+
+.search-button-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.search-text {
+    height: 18px;
 }
 
 div.nav-links {
@@ -109,14 +121,15 @@ div.help {
     text-align: center;
 }
 
-div.chat-icon-bubble {
+.chat-icon-bubble {
     display: flex;
     flex-direction: row;
     width: 47px;
     height: 40px;
+    margin-right: 5px;
 }
 
-div.nav-profile-pic {
+.nav-profile-pic {
     display: flex;
     flex-direction: row;
     width: 40px;
