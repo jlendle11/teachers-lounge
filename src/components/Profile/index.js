@@ -11,16 +11,17 @@ function Profile() {
                 </div>
                 <div className="box-2">
                 <div
-                    className="bio-title"><h2 className="bio">Bio</h2>
+                    className="bio-title"><h4 className="bio">Bio</h4>
                 </div>
-                <h3 className="bioText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                <h4 className="bioText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Suspendisse semper blandit dictum. Fusce sed quam sed est vehicula semper eu eget nunc. 
                     Fusce vehicula venenatis est, non scelerisque lectus gravida scelerisque. Praesent molestie tincidunt nibh in gravida. 
-                    Fusce molestie, sapien a pellentesque rhoncus, orci lorem pharetra lectus, a hendrerit justo nisl sed odio.</h3>
+                    Fusce molestie, sapien a pellentesque rhoncus, a hendrerit justo nisl sed odio.</h4>
                 <div className="passion-container">
                    <div> 
                        <h4 className="passions">Passions:</h4>
                    </div>
+                   <div className="bio-buttonContainer">
                    <div className="bio-buttons1">
                        <button className="bio-button1" type="button">Geopolitics</button>
                        <button className="bio-button2" type="button">Mycology</button>
@@ -30,6 +31,7 @@ function Profile() {
                        <button className="bio-button4" type="button">Kayaking</button>
                        <button className="bio-button5" type="button">Crafts</button>
                        <button className="bio-button6" type="button">Math</button>
+                    </div>
                     </div>
                 </div>
                 </div>
@@ -48,5 +50,6 @@ function Profile() {
         </div>
     )
 }
+
 
 export default Profile
