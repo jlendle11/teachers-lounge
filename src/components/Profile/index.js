@@ -1,5 +1,6 @@
 import React from 'react'
 import './Profile.css'
+import ProfileResources from '../Resources/ProfileResources'
 
 function Profile() {
     return (
@@ -41,7 +42,7 @@ function Profile() {
 
                 </div>
                 <div className="box-4">
-
+                    <ProfileResources/>
                 </div>
             </div>
 
