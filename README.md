@@ -1,7 +1,7 @@
 # Teachers-Lounge
 
 ## Site-link
-### [Teacher-Lounge]("http://teachers-lounge.surge.sh/")
+### [Teacher-Lounge](http://teachers-lounge.surge.sh/ "Teachers Lounge")
 
 
 ## About
