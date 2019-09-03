@@ -1,0 +1,10 @@
+
+
+.footer-container {
+    height: 60px;
+    background-color: #2165ae;
+    width: 100vw;
+    position: sticky;
+    bottom: 0;
+    z-index: 4;
+}
