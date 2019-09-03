@@ -9,6 +9,8 @@ function Profile() {
                 <div className="box-1">
 
                 </div>
+
+
                 <div className="box-2">
                 <div
                     className="bio-title"><h2 className="bio">Bio</h2>
@@ -40,6 +42,8 @@ function Profile() {
                 <div className="box-3">
 
                 </div>
+
+                
                 <div className="box-4">
 
                 </div>
