@@ -14,6 +14,7 @@ import './Homepage.css'
 function Homepage() {
     return (
         <div>
+            <h1>Welome, Linda</h1>
             <Resources />
             <Teachers />
             <Discussions />
