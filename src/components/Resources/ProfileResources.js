@@ -66,7 +66,7 @@ function ProfileResources() {
         <div className="resources-component1">
           {resourcesArray.map((resource, index) => {
             return (
-              <div key={index} className="resources-content-container">
+              <div key={index} className="resources-content-container2">
                 <div className="resources-boxes">
                   <div className="resources-title-box">
                     <div className="resources-title">{resource.title}</div>
@@ -91,7 +91,7 @@ function ProfileResources() {
         <div className="resources-component2">
           {resourcesArray.map((resource, index) => {
             return (
-              <div key={index} className="resources-content-container">
+              <div key={index} className="resources-content-container2">
                 <div className="resources-boxes">
                   <div className="resources-title-box">
                     <div className="resources-title">{resource.title}</div>
