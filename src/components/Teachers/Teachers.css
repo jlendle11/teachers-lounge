@@ -160,6 +160,10 @@
     margin-bottom: 7px;
 }
 
+.teacher-button:hover {
+    background-color: rgba(142, 166, 208, 0.79);
+}
+
 #sally-jones-0 {
     margin-left: 16px;
 }
