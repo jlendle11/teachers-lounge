@@ -27,6 +27,17 @@
   color: #424242;
 }
 
+.f-r,
+.r {
+  margin-left: 5.504vw;
+}
+.r {
+  margin-top: 2vh;
+}
+.f-r {
+  padding: 1vh 0 0 0;
+}
+
 .resources-title {
   display: flex;
   justify-content: center;
@@ -94,7 +105,7 @@
   align-content: center;
 
   position: relative;
-  margin-top: 1vh;
+  margin: 9% 32px 0 32px;
   z-index: 1;
 }
 
@@ -122,35 +133,82 @@
 .resources-component {
   display: flex;
   justify-content: space-between;
-  margin: 0 5.504vw;
+  /* margin: 0 1.504vw; */
   overflow: auto;
 }
 
-.f-r,
-.r {
-  margin-left: 5.504vw;
-}
-.r {
-  margin-top: 2vh;
-}
-.f-r {
-  padding: 1vh 0 0 0;
-}
-
-
+.right-arrow,
 .left-arrow {
-  position: absolute;
-  width: 19px;
-  height: auto;
-  margin: 18vh 2vw;
+  /* position: absolute; */
+  width: auto;
+  height: 13%;
+  margin: 13% 0 0 0;
+}
+
+.left-arrow{
+  margin-left: 32px;
 }
 .right-arrow{
-  position: absolute;
-  width: 19px;
-  height: auto;
-  margin: 18vh 1vw 0 77%;
-}
-.resources-content-container{
-  margin: 0 32px;
+  margin-right: 32px;
 }
 
+
+.resources-arrows-container{
+  display: flex;  
+}
+
+.resources-component1,
+.resources-component2{
+  display: flex;
+  overflow: auto;
+}
+
+.r-r,
+.r-v-r{
+  width: 357px;
+  height: 29px;
+  font-family: Avenir-Roman;
+  font-size: 160%;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.74px;
+  color: #424242;
+  /* margin: 2% 4%; */
+}
+.r-r{
+  margin:4% 0 0 4%;
+}
+.r-v-r{
+  margin: 4% 0 0 4%;
+}
+.resources-container-profile{
+  width: auto;
+  height: 707px;
+  background-color: #f2f2f2;
+  /* overflow: auto; */
+}
+
+.r-r-container,
+.r-v-r-container{
+  display: flex;
+  justify-content: space-between;
+  /* overflow: auto; */
+}
+
+.see-more{
+  width: 73px;
+  height: 19px;
+  font-family: BanglaSangamMN;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  color: #000000;
+  /* margin: 4% 3%; */
+  text-decoration: underline;
+  margin: 7% 4% 0 0;
+}
