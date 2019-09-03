@@ -29,6 +29,31 @@ const resourcesArray = [
         title: "Title",
         type: "Type",
         subject: "Subject"
+    },
+    {
+        title: "Metric Slides",
+        type: "Slides",
+        subject: "Chemistry"
+    },
+    {
+        title: "Cool Animals",
+        type: "Activity",
+        subject: "Science"
+    },
+    {
+        title: "Title",
+        type: "Type",
+        subject: "Subject"
+    },
+    {
+        title: "Title",
+        type: "Type",
+        subject: "Subject"
+    },
+    {
+        title: "Title",
+        type: "Type",
+        subject: "Subject"
     }
 ]
 

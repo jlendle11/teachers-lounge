@@ -4,6 +4,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    margin-top: 3%;
 }
 
 .discuss-header {
@@ -29,12 +30,12 @@
 }
 
 .discuss-box:hover {
-    background-size: 170%;
+    background-size: 150%;
     z-index: 2;
     background-color: #D0D3D8;
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
     transition: 1s ease;
 }
 
