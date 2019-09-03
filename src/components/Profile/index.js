@@ -73,6 +73,23 @@ function Profile() {
 
             <div className="row-2">
                 <div className="box-3">
+                    <div className="box-3-experience">
+                        <h4 className="box-3-experience-title">Experience</h4>
+                    </div>
+                    <br></br>
+                    <div className='box-3-description'>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse semper blandit dictum. Fusce sed quam sed est vehicula semper eu eget nunc. Fusce vehicula venenatis est, non scelerisque lectus gravida scelerisque. Praesent molestie tincidunt nibh in gravida. Fusce molestie, sapien a pellentesque rhoncus, orci lorem pharetra lectus, a hendrerit justo nisl sed odio.
+                        <br></br>
+                        <br></br>
+                        Curabitur et risus felis. Sed euismod cursus laoreet. Quisque semper, tortor faucibus maximus imperdiet, neque nibh congue sapien, at elementum augue mauris nec nisi. In sodales sapien in nibh commodo sagittis. Aenean ac sodales risus. Nulla tincidunt et ipsum id imperdiet. Curabitur massa orci, viverra ac vestibulum id, pulvinar sit amet quam. Donec ex turpis, viverra efficitur nibh non, faucibus pretium leo.
+    <br></br>
+                        <br></br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse semper blandit dictum. Fusce sed quam sed est vehicula semper eu eget nunc. Fusce vehicula venenatis est, non scelerisque lectus gravida scelerisque. Praesent molestie tincidunt nibh in gravida. Fusce molestie, sapien a pellentesque rhoncus, orci lorem pharetra lectus, a hendrerit justo nisl sed odio.
+    <br></br>
+                        <br></br>
+                        Curabitur et risus felis. Sed euismod cursus laoreet. Quisque semper, tortor faucibus maximus imperdiet, neque nibh congue sapien, at elementum augue mauris nec nisi. In sodales sapien in nibh commodo sagittis. Aenean ac sodales risus. Nulla tincidunt et ipsum id imperdiet. Curabitur massa orci, viverra ac vestibulum id, pulvinar sit amet quam. Donec ex turpis, viverra efficitur nibh non, faucibus pretium leo.
+                    </div>
+
 
                 </div>
 

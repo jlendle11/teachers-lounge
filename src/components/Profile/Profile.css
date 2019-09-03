@@ -42,8 +42,37 @@
      width: 40vw;
      /* height: 58.2vh; */
      height: 70vh;
-     background-color: red;
+     background-color: #f2f2f2;
      margin-right: 2vw;
+
+ .box-3-experience-title {
+    padding: 1.4vw;
+}
+ .box-3-experience {
+     width: 40vw;
+     height: 3.5vw;
+     background-color: #d6e3f0;
+     font-family: Avenir-Roman;
+     font-size: 24px;
+     font-weight: normal;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: normal;
+     letter-spacing: 0.85px;
+     color: #424242;
+ }
+ .box-3-description{
+    width: 39vw;
+    height: 48.8vw;
+    font-family: BanglaSangamMN;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.56px;
+    color: #424242;
+    padding: 1.5vw;
  }
 
  .box-4 {
@@ -165,7 +194,6 @@
      margin-left: 8vh;
      margin-bottom: 1.5vh;
      margin-top: 1vh;
-
  }
 
  .bio-buttons2 {
