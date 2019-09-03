@@ -1,0 +1,18 @@
+
+
+.footer-container {
+    height: 60px;
+    background-color: #2165ae;
+    width: 100vw;
+    position: sticky;
+    bottom: 0;
+    z-index: 4;
+}
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) {
+        .footer-container {
+         width: 100vw;
+        }
+    }

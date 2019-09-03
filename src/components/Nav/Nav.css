@@ -18,6 +18,11 @@ img.tl-logo {
     background-color: #2165ae;
 }
 
+img.tl-logo:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
+}
+
 /* .navz {
     margin-left: 10px;
     margin-right: 10px;
@@ -129,6 +134,11 @@ div.help {
     margin-right: 5px;
 }
 
+.chat-icon-bubble:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
+}
+
 .nav-profile-pic {
     display: flex;
     flex-direction: row;
@@ -138,8 +148,110 @@ div.help {
     border: solid 2px #ffffff;
 }
 
-div.profile-pic:hover {
+.nav-profile-pic:hover {
     transition: all .2s ease-in-out;
     transform: scale(1.1);
-
 }
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
+    .network-navz{
+        display: none;
+    }
+    .resources-navz{
+        display: none;
+    }
+    .discuss-navz{
+        display: none;
+    }
+    .settings-navz{
+        display: none;
+    }
+    .help-navz{
+        display: none;
+    }
+
+    .search_bar {
+        display: none;
+        
+    }
+    
+    .search-button {
+        display: none;
+        
+    }
+    
+    .search-button-bar {
+        display: none;
+        
+    }
+    
+    .search-text {
+        display: none;
+        
+    }
+    
+
+    .main-nav-bar {
+        display: flex;
+        /* flex-direction: row;
+        align-content: center; */
+        width: 100%;
+        height: 60px;
+        background-color: #2165ae;
+        align-items: center;
+    }
+    
+    img.tl-logo {
+        display: flex;
+        align-content: center;
+        flex-direction: row;
+        margin-top: 8%;
+        width: 60px;
+        height: 46px;
+        background-color: #2165ae;
+    }
+    
+    img.tl-logo:hover {
+        transition: all .2s ease-in-out;
+        transform: scale(1.1);
+    }
+
+    .chat-icon-bubble {
+        display: flex;
+        flex-direction: row;
+        width: 47px;
+        height: 40px;
+        margin-right: 5px;
+    }
+    
+    .chat-icon-bubble:hover {
+        transition: all .2s ease-in-out;
+        transform: scale(1.1);
+    }
+    
+    .nav-profile-pic {
+        display: flex;
+        flex-direction: row;
+        width: 40px;
+        height: 40px;
+        border-radius: 60%;
+        border: solid 2px #ffffff;
+    }
+    
+    .nav-profile-pic:hover {
+        transition: all .2s ease-in-out;
+        transform: scale(1.1);
+    }
+      
+}
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) {
+        .main-nav-bar {
+          width: 100vw;
+        }
+    }

@@ -29,13 +29,14 @@
 
 .f-r,
 .r {
-  margin-left: 5.504vw;
+  /* margin-left: 5.504vw; */
 }
 .r {
   margin-top: 2vh;
 }
-.f-r {
-  padding: 1vh 0 0 0;
+.f-r,
+.r{
+  padding: 8px 0 0 74px;
 }
 
 .resources-title {
@@ -105,7 +106,7 @@
   align-content: center;
 
   position: relative;
-  margin: 9% 32px 0 32px;
+  margin: 9% 64px 0 6px;
   z-index: 1;
 }
 
@@ -142,14 +143,14 @@
   /* position: absolute; */
   width: auto;
   height: 13%;
-  margin: 13% 0 0 0;
+  margin: 150px 15px 0 32px;
 }
 
 .left-arrow{
-  margin-left: 32px;
+  /* margin-left: 32px; */
 }
 .right-arrow{
-  margin-right: 32px;
+  /* margin-right: 32px; */
 }
 
 
@@ -212,3 +213,4 @@
   text-decoration: underline;
   margin: 7% 4% 0 0;
 }
+
