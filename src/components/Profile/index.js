@@ -2,14 +2,46 @@ import React from 'react'
 import './Profile.css'
 import ProfileResources from '../Resources/ProfileResources'
 
+// import Linda
+import linda from '../../pics/linda-profile.jpeg'
+
+const profileInfo = {
+    img: linda,
+    name: "Linda Cope",
+    subject: "Science",
+    school: "Brooklyn High",
+    experience: "9 Years",
+    grade: "11-12",
+    location: "Brooklyn, New York",
+    interests: ["Collaboration", "Friendship"]
+}
+
 function Profile() {
     return (
         <div className="test-profile">
 
             <div className="row-1">
                 <div className="box-1">
-
+                    <div className="box-1-column1">
+                        <img className="box-1-pic" src={profileInfo.img} alt="box-1-pic"></img>
+                        <button className="box-1-button">Edit</button>
+                    </div>
+                    <div className="box-1-column2">
+                        <div className="box-1-name">
+                            <h5 className="box-1-h5">{profileInfo.name}</h5>
+                        </div>
+                        <div className="box-1-info">
+                            <p className="box-1-text">Subject: {profileInfo.subject}</p>
+                            <p className="box-1-text">{profileInfo.school}</p>
+                            <p className="box-1-text">{profileInfo.experience}</p>
+                            <p className="box-1-text">{profileInfo.grade}</p>
+                            <p className="box-1-text">{profileInfo.location}</p>
+                            <p className="box-1-text">Interested in: <br></br><p className="box-1-text-indent">{profileInfo.interests[0]}</p><p className="box-1-text-indent">{profileInfo.interests[1]}</p></p>
+                        </div>
+                    </div>
                 </div>
+
+
                 <div className="box-2">
                     <div
                         className="bio-title"><h4 className="bio">Bio</h4>
@@ -60,6 +92,8 @@ function Profile() {
 
 
                 </div>
+
+
                 <div className="box-4">
                     <ProfileResources />
                 </div>
@@ -68,6 +102,5 @@ function Profile() {
         </div>
     )
 }
-
-
+    
 export default Profile
