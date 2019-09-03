@@ -11,3 +11,8 @@
   justify-content: space-around;
 }
 
+.App-body {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}

@@ -186,8 +186,12 @@
 }
 .resources-container-profile{
   width: auto;
-  height: 707px;
+  /* height: 58.2vh; */
+  height: 70vh;
   background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   /* overflow: auto; */
 }
 
