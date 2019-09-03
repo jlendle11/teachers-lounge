@@ -5,6 +5,7 @@ import { Route } from 'react-router-dom'
 import Homepage from './components/Homepage'
 import Profile from './components/Profile'
 import Nav from './components/Nav'
+import Footer from './components/Footer'
 // Styling 
 import './App.css'
 
@@ -12,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <Nav/>
-      <main>
+      <main className="App-body">
         <Route 
             exact path="/" 
             component={Homepage}
@@ -22,7 +23,7 @@ function App() {
             component={Profile}
         />
       </main>
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   )
 }

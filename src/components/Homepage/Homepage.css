@@ -1,0 +1,36 @@
+@media only screen and (device-width : 375px) and (device-height : 812px) {
+    .box-all {
+        font-size: 3.5vw;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .box-top {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .box-bot {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .featured-resources {
+        padding-top: 8px;
+    }
+    /* .f-r {
+        padding: 8px 0;
+    } */
+
+    .f-r,
+    .r,
+    .teachers-text,
+    .teachers-text-second {
+        padding: 0 15px;
+    }
+
+    .discuss-title,
+    .discuss-foot {
+        margin-left: 15px;
+    }
+}

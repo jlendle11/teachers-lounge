@@ -1,0 +1,234 @@
+.featured-resources {
+  
+  font-family: Avenir-Roman;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.03px;
+  color: #000000;
+  width: auto;
+  height: 48px;
+  background-color: #d6e3f0;
+  /* padding: 0 0 0 3vw; */
+}
+
+.recommendations {
+  width: 176px;
+  height: 29px;
+  font-family: Avenir-Roman;
+  font-size: 21px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.02px;
+  color: #424242;
+}
+
+.f-r,
+.r {
+  /* margin-left: 5.504vw; */
+}
+.r {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.f-r,
+.r{
+  padding: 8px 0 0 74px;
+}
+
+.resources-title {
+  display: flex;
+  justify-content: center;
+  margin: 16px;
+
+  height: 22px;
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-align: center;
+  color: #000000;
+}
+
+.resources-type {
+  width: 48px;
+  height: 19px;
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.49px;
+  text-align: center;
+  color: #3c474d;
+
+  margin-top: 100px;
+}
+
+.resources-subject {
+  width: 51px;
+  height: 19px;
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.49px;
+  text-align: center;
+  color: #3c474d;
+}
+
+.resources-img {
+  width: 96px;
+  height: auto;
+  margin: 16px 0;
+  padding: 1px;
+}
+
+.resources-boxes {
+  display: flex;
+  flex-direction: column;
+  width: 156px;
+  height: 238px;
+  border-radius: 10px;
+  border: solid 1px #2165ae;
+  background-color: #ffffff;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+
+  position: relative;
+  /* margin: 0 64px 0 6px; */
+  /* margin: 0 32px; */
+  margin: 0 64px 0 0;
+  z-index: 1;
+}
+
+.resources-container {
+  margin: 10px 0 10px 0;
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  height: 400px;
+  background-color: #f2f2f2;
+}
+.resources-title-box {
+  width: 156px;
+  height: 67px;
+  background-color: rgba(33, 101, 174, 0.18);
+}
+.resources-img-box {
+  width: 100px;
+  height: 100px;
+  border: solid 1px #2165ae;
+  background-color: #ffffff;
+  position: absolute;
+  /* margin-top: 3.5vh; */
+  margin: 50px 0;
+}
+.resources-component {
+  display: flex;
+  justify-content: space-between;
+  /* margin: 0 1.504vw; */
+  overflow: auto;
+}
+
+.right-arrow,
+.left-arrow {
+  /* position: absolute; */
+  width: auto;
+  height: 13%;
+  margin: 150px 15px 0 32px;
+}
+
+.left-arrow{
+  /* margin-left: 32px; */
+}
+.right-arrow{
+  /* margin-right: 32px; */
+}
+
+
+.resources-arrows-container{
+  display: flex;
+  margin-top: 32px;  
+}
+
+.resources-component1,
+.resources-component2{
+  display: flex;
+  overflow: auto;
+}
+
+.resources-content-container {
+  margin-left: 0;
+}
+
+.resources-content-container2 {
+  margin-top: 32px;
+  margin-left: 32px;
+}
+
+.r-r,
+.r-v-r{
+  width: 357px;
+  height: 29px;
+  font-family: Avenir-Roman;
+  font-size: 160%;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.74px;
+  color: #424242;
+  /* margin: 2% 4%; */
+}
+.r-r{
+  margin:4% 0 0 4%;
+}
+.r-v-r{
+  margin: 4% 0 0 4%;
+}
+.resources-container-profile{
+  width: auto;
+  /* height: 58.2vh; */
+  height: 70vh;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  overflow: auto;
+}
+
+.r-r-container,
+.r-v-r-container{
+  display: flex;
+  justify-content: space-between;
+  /* overflow: auto; */
+}
+
+.see-more{
+  width: 73px;
+  height: 19px;
+  font-family: BanglaSangamMN;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  color: #000000;
+  /* margin: 4% 3%; */
+  text-decoration: underline;
+  margin: 32px 4% 0 0;
+}
+
